@@ -1,4 +1,9 @@
-class Test
+=begin
+Author: Steve Yankson
+Project "Stock picker" from The Odin Project
+2nd/April/2018
+=end
+
   def stock_picker(prices)
     max_profit = 0
     best_buy = 0
@@ -15,7 +20,3 @@ class Test
     end
     [best_buy, best_sell]
   end
-end
-
-me = Test.new
-p me.stock_picker
