@@ -1,3 +1,9 @@
+=begin
+Author: Steve Yankson
+Project "Stock picker" from The Odin Project
+18th/April/2018
+=end
+
 
 def caesar_cipher(string, b)
   hsh = Hash[("a".."z").to_a.zip((1..26).to_a)]
