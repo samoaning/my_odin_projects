@@ -1,3 +1,10 @@
+=begin
+Author: Steve Yankson
+Project "Stock picker" from The Odin Project
+18th/April/2018
+=end
+
+
 def caesar_cipher(string, shift_factor)
   @string = string
   @shift_factor = shift_factor.to_i
